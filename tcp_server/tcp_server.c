@@ -67,9 +67,9 @@ int main(int argc, char *argv[])
             printf("Ket noi bi dong.\n");
             break;    
         }
-       
+        
          if (strncmp(buf, "exit", 4) != 0) {
-            fwrite(buf, sizeof(buf), 1, w);
+            fwrite(buf, 1, ret, w);
          }
             
     
